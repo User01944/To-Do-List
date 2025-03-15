@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div id="nav-1">
+          <img class="HamBurgs" src="Images/HamBurg.svg" alt="" />
+          <img id="logo" src="images/Logo.png" alt="" />
+          <h1>Sticky Wall</h1>
+        </div>
+        <div
+          style="
+            background-color: black;
+            position: relative;
+            overflow: hidden;
+            margin-top: 1vw;
+          "
+        >
+          <h3 id="nav">
+            To Insert a new List, Press "ctrl+b" or the hamburger menu on top
+            left and press the "+ Add New List" or you can press "ctrl+c" to
+            create list directly
+          </h3>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div id="Side-bar">
+        <div id="side-bar-top">
+          <h1>Menu</h1>
+          <img class="HamBurgs" src="Images/HamBurg.svg" alt="" />
+        </div>
+        <form action="">
+          <input
+            id="side-bar-input"
+            type="search"
+            name="q"
+            placeholder="Search On Web"
+          />
+        </form>
+        <div class="side-bar-list">
+          <h4>Task</h4>
+          <section class="tasks">
+            <img src="Images/play-forward-circle-outline.svg" alt="" />
+            <h5>Upcoming</h5>
+          </section>
+          <section class="tasks">
+            <img src="images/list-outline.svg" alt="" />
+            <h5>Today</h5>
+          </section>
+          <section class="tasks">
+            <img src="images/calendar-number-outline.svg" alt="" />
+            <h5>Calender</h5>
+          </section>
+          <section class="tasks">
+            <img src="images/wall-svgrepo-com.svg" alt="" />
+            <h5>sticky wall</h5>
+          </section>
+        </div>
+        <div class="side-bar-list">
+          <h4>Lists</h4>
+          <section class="lists">
+            <h5>1</h5>
+            <h5>Personal</h5>
+          </section>
+          <section class="lists">
+            <h5>2</h5>
+            <h5>Work</h5>
+          </section>
+          <section class="lists">
+            <h5>3</h5>
+            <h5>List 1</h5>
+          </section>
+          <section class="createList" class="lists">
+            <h5>+</h5>
+            <h5>Add List</h5>
+          </section>
+        </div>
+        <div id="tag">
+          <button class="tags">Tag 1</button>
+          <button class="tags">Tag 2</button>
+          <button class="tags">+ Add Tag</button>
+        </div>
+        <div id="menu-bottom">
+          <section class="menu-bottom-list">
+            <img src="images/setting-5-svgrepo-com.svg" alt="" />
+            <h5>Settings</h5>
+          </section>
+          <section class="menu-bottom-list">
+            <img
+              src="Images/sign-out-double-arrow-left-svgrepo-com.svg"
+              alt=""
+            />
+            <h5>Sign Out</h5>
+          </section>
+        </div>
+      </div>
+      <div id="inner-main"></div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
