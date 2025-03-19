@@ -139,8 +139,8 @@ nav > h1 {
 #inner-main {
   padding-top: 3vw;
   position: relative;
+  top: 10vw;
   left: 0;
-  top: 7vw;
   display: flex;
   flex-wrap: wrap;
   align-content: start;
@@ -221,4 +221,36 @@ nav > h1 {
   width: 78%;
   display: flex;
   margin-bottom: 0.3vw;
+}
+#filter {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  top: 10vw;
+  right: 2vw;
+}
+#filter-btn {
+  width: 7vw;
+  height: 3vw;
+  border-radius: 0.5vw;
+  font-size: 1.25vw;
+  font-weight: 700;
+  transition: all 0.3s ease 0s;
+}
+#filter-btn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.listStyle {
+  padding: 1vw;
+  background-color: white;
+  border: 2px solid black;
+  margin-top: 0.5vw;
+  border-radius: 0.5vw;
+}
+.listHover:hover {
+  cursor: pointer;
+}
+.hide {
+  display: none;
 }
